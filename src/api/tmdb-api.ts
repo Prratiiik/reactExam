@@ -78,3 +78,4 @@ export const getMovies = () => {
         throw error
       });
   };
+
