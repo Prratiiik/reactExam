@@ -82,6 +82,12 @@ export interface DiscoverMovies {
   results: BaseMovieProps[];
 }
 
+export interface NowPlayingMovies {
+  page: number;
+  results: BaseMovieProps[];
+  total_pages: number;
+  total_results: number;
+}
 export interface Review {
   author: string,
   content: string,
